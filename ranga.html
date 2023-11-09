@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Card Design</title>
+    <!--font-family-->
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- title of site -->
+    <title>Directory Landing Page</title>
+
+    <!-- For favicon png -->
+    <link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png" />
+
+    <!--font-awesome.min.css-->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+    <!--linear icon css-->
+    <link rel="stylesheet" href="assets/css/linearicons.css">
+
+    <!--animate.css-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+    <!--flaticon.css-->
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+
+    <!--slick.css-->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+
+    <!--bootstrap.min.css-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- bootsnav -->
+    <link rel="stylesheet" href="assets/css/bootsnav.css">
+
+    <!--style.css-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--responsive.css-->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+    <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    <style>
+        .Logo_Committie {
+            border-radius: 20px;
+            height: 150px;
+            width: 150px;
+            background-color: wheat;
+        }
+
+        .exploreimg {
+            height: 262px;
+            width: 358px;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            
+            background-color: gainsboro;
+
+        }
+
+        .card {
+            background-color: white;
+            width: 198px;
+            padding: 0 0 34px 0;
+            border-radius: 7px;
+            margin: 5px;
+        }
+
+        .image {
+            padding: 5px;
+
+        }
+
+        .content {
+            padding: 5px 13px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .allInfo {
+            display: flex;
+            margin-top: 20px;
+            
+        }
+
+        .image img {
+            border-radius: 7px;
+        }
+
+        .content p {
+            font-size: 9px;
+            color: gray;
+
+
+        }
+
+        .capsules {
+            padding: 0 11px 0px 13px;
+        }
+
+        .capsules span {
+            border: 1px solid gray;
+            padding: 0px 6px;
+            border-radius: 7px;
+            font-size: 8px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .button {
+            text-align: center;
+
+        }
+
+        .button button {
+            padding: 7px 9px;
+            border-radius: 11px;
+            background-color: #c5dcf7;
+            color: rgb(15, 167, 249);
+            font-size: 10px;
+            border: none;
+            margin-top: 3px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .button button:hover {
+            background-color: #d8f4fe;
+            color: rgb(15, 167, 249);
+        }
+
+        .top {
+            display: flex;
+            background-color: rgb(251 142 52);
+            border-radius: 20px;
+        }
+
+        .Topic_head{
+            font-size: 30px;
+            
+            align-items: center;
+            padding-top: 25px;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+    
+
+    <!-- top-area Start -->
+    <section class="top-area" style="">
+        <div class="header-area">
+            <!-- Start Navigation -->
+            <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy" data-minus-value-desktop="70"
+                data-minus-value-mobile="55" data-speed="1000" style="background-color: #ffe400">
+
+                <div class="container" style=" ">
+
+                    <!-- Start Header Navigation -->
+                    <div class="navbar-header">
+                        <img src="assets/images/Logo_Committie/Logo_Rangawardhan.png" alt="explore person"
+            style="height: 100px; width: 100px; padding-left: -200px;" >
+                        <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                            <i class="fa fa-bars"></i>
+                        </button> -->
+                        
+                        <a class="navbar-brand" href="index.html" style="padding-left: 20px;">Rang<span>wardhan</span></a>
+
+                    </div><!--/.navbar-header-->
+                    <!-- End Header Navigation -->
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+                        <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                            <li class=" scroll active"><a href="#home">home</a></li>
+
+                            <li class="scroll"><a href="#explore">explore</a></li>
+                            <li class="scroll"><a href="#reviews">review</a></li>
+                            <li class="scroll"><a href="#blog">blog</a></li>
+                            <li class="scroll"><a href="#contact">contact</a></li>
+                        </ul><!--/.nav -->
+                    </div><!-- /.navbar-collapse -->
+                </div><!--/.container-->
+            </nav><!--/nav-->
+            <!-- End Navigation -->
+        </div><!--/.header-area-->
+        <div class="clearfix"></div>
+
+    </section><!-- /.top-area-->
+    <!-- top-area End -->
+    
+
+
+    <div class="allInfo">
+
+
+        <div class="card">
+
+            <div class="image">
+                <img width="188" src="assets\images\explore\e1.jpeg" alt="">
+            </div>
+
+            <div class="capsules">
+                <span>Register</span>
+                <span>Rs.849</span>
+            </div>
+
+            <div class="content">
+                <h2>Rangwardhan</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, quam sapiente. Repellat eaque ab
+                    officiis reprehenderit nesciunt magnam sequi minus repellendus.</p>
+            </div>
+
+            <div class="button">
+                <button>Read More</button>
+            </div>
+
+        </div>
+        <div class="card">
+
+            <div class="image">
+                <img width="188" src="assets\images\explore\e1.jpeg" alt="">
+            </div>
+
+            <div class="capsules">
+                <span>Register</span>
+                <span>Rs.849</span>
+            </div>
+
+            <div class="content">
+                <h2>Rangwardhan</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, quam sapiente. Repellat eaque ab
+                    officiis reprehenderit nesciunt magnam sequi minus repellendus.</p>
+            </div>
+
+            <div class="button">
+                <button>Read More</button>
+            </div>
+
+        </div>
+        <div class="card">
+
+            <div class="image">
+                <img width="188" src="assets\images\explore\e1.jpeg" alt="">
+            </div>
+
+            <div class="capsules">
+                <span>Register</span>
+                <span>Rs.849</span>
+            </div>
+
+            <div class="content">
+                <h2>Rangwardhan</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, quam sapiente. Repellat eaque ab
+                    officiis reprehenderit nesciunt magnam sequi minus repellendus.</p>
+            </div>
+
+            <div class="button">
+                <button>Read More</button>
+            </div>
+
+        </div>
+        <div class="card">
+
+            <div class="image">
+                <img width="188" src="assets\images\explore\e1.jpeg" alt="">
+            </div>
+
+            <div class="capsules">
+                <span>Register</span>
+                <span>Rs.849</span>
+            </div>
+
+            <div class="content">
+                <h2>Rangwardhan</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, quam sapiente. Repellat eaque ab
+                    officiis reprehenderit nesciunt magnam sequi minus repellendus.</p>
+            </div>
+
+            <div class="button">
+                <button>Read More</button>
+            </div>
+
+        </div>
+        <div class="card">
+
+            <div class="image">
+                <img width="188" src="assets\images\explore\e1.jpeg" alt="">
+            </div>
+
+            <div class="capsules">
+                <span>Register</span>
+                <span>Rs.849</span>
+            </div>
+
+            <div class="content">
+                <h2>Rangwardhan</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, quam sapiente. Repellat eaque ab
+                    officiis reprehenderit nesciunt magnam sequi minus repellendus.</p>
+            </div>
+
+            <div class="button">
+                <button>Read More</button>
+            </div>
+
+        </div>
+        <div class="card">
+
+            <div class="image">
+                <img width="188" src="assets\images\explore\e1.jpeg" alt="">
+            </div>
+
+            <div class="capsules">
+                <span>Register</span>
+                <span>Rs.849</span>
+            </div>
+
+            <div class="content">
+                <h2>Rangwardhan</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, quam sapiente. Repellat eaque ab
+                    officiis reprehenderit nesciunt magnam sequi minus repellendus.</p>
+            </div>
+
+            <div class="button">
+                <button>Read More</button>
+            </div>
+
+        </div>
+        <div class="card">
+
+            <div class="image">
+                <img width="188" src="assets\images\explore\e1.jpeg" alt="">
+            </div>
+
+            <div class="capsules">
+                <span>Register</span>
+                <span>Rs.849</span>
+            </div>
+
+            <div class="content">
+                <h2>Rangwardhan</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, quam sapiente. Repellat eaque ab
+                    officiis reprehenderit nesciunt magnam sequi minus repellendus.</p>
+            </div>
+
+            <div class="button">
+                <button>Read More</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
